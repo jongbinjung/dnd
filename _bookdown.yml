@@ -1,5 +1,11 @@
 book_filename: "dnd"
+repo: https://github.com/jongbinjung/dnd/
 output_dir: "docs"
+delete_merged_file: true
 language:
+  label:
+    fig: "그림 "
+    tab: "표 "
+    eq: "수식 "
   ui:
-    chapter_name: "Chapter "
+    edit: "편집"

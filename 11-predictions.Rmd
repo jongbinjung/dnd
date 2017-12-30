@@ -1,3 +1,3 @@
-# Methods
+# 예측 {#predictions}
 
 We describe our methods in this chapter.

@@ -1,0 +1,12 @@
+# 저자소개 {-}
+
+저자 [정종빈](http://jongbin.com)은 연세대학교 경영학과 학/석사를 마치고,
+현재 [스탠포드 MS&E](https://msande.stanford.edu/student-spotlight-jongbin-jung)에서
+의사결정 분석(Decision Analysis)과 계량적 사회학(Computational Social Science)을
+연계하여 박사 과정 중에 있다.
+
+주요 연구 분야는 데이터를 활용한 공공 정책의 개발 및 분석이며, 연구 외에도 
+구글 등 IT 기업에서 계량적 분석가(quantitative analyst)/데이터 
+과학자(data scientist)로 근무했었다.
+
+취미로는 딸과 [주말 나들이](http://dam.jongbin.com)를 본이 아니게 다니고 있다.

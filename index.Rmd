@@ -1,30 +1,43 @@
---- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+---
+title: "데이터와 의사결정"
+author: "정종빈"
 date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+url: 'http\://dnd.jongbin.com/'
+description: "데이터가 난무하는 시대에 계량적 의사결정을 위한 비공식적 지침서"
 ---
 
-# Prerequisites
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+# 책소개 {-}
 
-The **bookdown** package can be installed from CRAN or Github:
+데이터 분석과 의사결정에 대해 공부하고 생각을 하면서, 간단하면서도 유용한 여러
+사고의 틀과 도구들이 소위 "전문가"가 아닌 사람들의 일상 속에서 사용되지 않음에
+대한 안타까움을 기반으로, 이 책을 쓰기 시작했다.
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+기초 지식부터 시작해서 차근차근 내용을 쌓아가는 대부분의 교과서와는 달리,
+일상생활, 연구, 업무에서 개인적으로 경험했던 실활용 예를 기반으로 책을 구성해 
+보고자 한다.
+최대한 직관적으로 쓰고자 노력은 하겠지만, 혹시라도 배경이 되는 기초 지식과 
+이론에 관심이 있는 독자들을 위해, 부록에 따로 모아 놓았다.
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+이 책은 내가 연세대학교 경영대학에서 경영과학과 불확실성하에서의 
+최적의사결정, 스탠포드에서 의사결정분석 (MS&E 252, 253, 352), 
+응용통계 (MS&E 125), 계량적 사회학 (MS&E 263) 등의 수업을 수강하고 가르치면서,
+그리고 데이터 관련한 국가 기관과 여러 기업에서 일하면서 습득한 지식을 배탕으로
+구성했다.
 
-To compile this example to PDF, you need to install XeLaTeX.
+
+책 집필에는 `R`의 **bookdown** 패키지[@R-bookdown]를 이용했으며, 
+원문(소스코드)은  [Github](https://github.com/jongbinjung/dnd)에서 받아 볼 수 
+있다.
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
