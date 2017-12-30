@@ -1,4 +1,5 @@
 book_filename: "dnd"
+output_dir: "docs"
 language:
   ui:
     chapter_name: "Chapter "

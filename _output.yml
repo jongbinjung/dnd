@@ -6,7 +6,6 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book: default
 bookdown::gitbook:
-  output_dir: "docs"
   css: style.css
   config:
     toc:
