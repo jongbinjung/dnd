@@ -3,6 +3,6 @@
 책의 내용을 이해하는 데에 절대적으로 필요하진 않지만, 알고 있으면 좋을---도움이 
 될---이론적(수학적)인 배경 지식.
 
-## 의사결정 {#decisionanalysis}
+## 의사결정이론 {#decisionanalysis}
 
 ## 확률 {#probability}

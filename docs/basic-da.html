@@ -25,15 +25,15 @@
 <meta name="author" content="정종빈">
 
 
-<meta name="date" content="2017-12-29">
+<meta name="date" content="2017-12-31">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="uncertainty.html">
-<link rel="next" href="methods.html">
+<link rel="prev" href="eca080ec9e90ec868ceab09c.html">
+<link rel="next" href="decision-quality.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -68,20 +68,19 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>책소개</a></li>
 <li class="chapter" data-level="" data-path="eca080ec9e90ec868ceab09c.html"><a href="eca080ec9e90ec868ceab09c.html"><i class="fa fa-check"></i>저자소개</a></li>
-<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> 기초 지식</a><ul>
-<li class="chapter" data-level="1.1" data-path="decisions.html"><a href="decisions.html"><i class="fa fa-check"></i><b>1.1</b> 의사결정</a></li>
-<li class="chapter" data-level="1.2" data-path="uncertainty.html"><a href="uncertainty.html"><i class="fa fa-check"></i><b>1.2</b> 불확실성</a></li>
-<li class="chapter" data-level="1.3" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>1.3</b> 데이터</a></li>
+<li class="chapter" data-level="1" data-path="basic-da.html"><a href="basic-da.html"><i class="fa fa-check"></i><b>1</b> 의사결정</a><ul>
+<li class="chapter" data-level="1.1" data-path="decision-quality.html"><a href="decision-quality.html"><i class="fa fa-check"></i><b>1.1</b> 좋은 결정과 나쁜 결정</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>2</b> Methods</a></li>
-<li class="chapter" data-level="3" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>3</b> Applications</a><ul>
-<li class="chapter" data-level="3.1" data-path="example-one.html"><a href="example-one.html"><i class="fa fa-check"></i><b>3.1</b> Example one</a></li>
-<li class="chapter" data-level="3.2" data-path="example-two.html"><a href="example-two.html"><i class="fa fa-check"></i><b>3.2</b> Example two</a></li>
+<li class="chapter" data-level="2" data-path="predictions.html"><a href="predictions.html"><i class="fa fa-check"></i><b>2</b> 예측</a></li>
+<li class="chapter" data-level="3" data-path="inference.html"><a href="inference.html"><i class="fa fa-check"></i><b>3</b> 추론</a></li>
+<li class="chapter" data-level="4" data-path="fairness.html"><a href="fairness.html"><i class="fa fa-check"></i><b>4</b> 공정성</a><ul>
+<li class="chapter" data-level="4.1" data-path="computational-policy.html"><a href="computational-policy.html"><i class="fa fa-check"></i><b>4.1</b> 공공정책과 계량적 의사결정</a></li>
+<li class="chapter" data-level="4.2" data-path="fairness-.html"><a href="fairness-.html"><i class="fa fa-check"></i><b>4.2</b> 형평성(fairness)의 정의</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>4</b> Final Words</a></li>
 <li class="appendix"><span><b>부록</b></span></li>
 <li class="chapter" data-level="A" data-path="basics-theory.html"><a href="basics-theory.html"><i class="fa fa-check"></i><b>A</b> 기초이론</a><ul>
-<li class="chapter" data-level="A.1" data-path="probability.html"><a href="probability.html"><i class="fa fa-check"></i><b>A.1</b> 확률</a></li>
+<li class="chapter" data-level="A.1" data-path="decisionanalysis.html"><a href="decisionanalysis.html"><i class="fa fa-check"></i><b>A.1</b> 의사결정이론</a></li>
+<li class="chapter" data-level="A.2" data-path="probability.html"><a href="probability.html"><i class="fa fa-check"></i><b>A.2</b> 확률</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="ecb0b8eab3a0ebacb8ed978c.html"><a href="ecb0b8eab3a0ebacb8ed978c.html"><i class="fa fa-check"></i>참고문헌</a></li>
 <li class="divider"></li>
@@ -104,18 +103,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data" class="section level2">
-<h2><span class="header-section-number">1.3</span> 데이터</h2>
-
+<div id="basic-da" class="section level1">
+<h1><span class="header-section-number">1</span> 의사결정</h1>
+<p>우리는 살면서, 점심은 어디서 뭘 먹을지부터 직장을 그만둘지 말지 등, 시도 때도 없이 늘 여러 갈림길 중 어느 길로 갈지 결정을 한다. 어쩌면 우리의 삶에서 가장 중요한 일 중 하나는 매번 갈림길을 마주 했을 때, 최대한 “좋은 결정”을 내리려 노력하는 것이라고 해도 과언이 아닐 것이다.</p> 
 </div>
-<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="uncertainty.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="eca080ec9e90ec868ceab09c.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="decision-quality.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -144,7 +142,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jongbinjung/dnd/edit/master/01-intro.Rmd",
+"link": "https://github.com/jongbinjung/dnd/edit/master/01-basic-da.Rmd",
 "text": "편집"
 },
 "download": null,

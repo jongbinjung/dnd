@@ -1,5 +1,5 @@
 book_filename: "dnd"
-repo: https://github.com/jongbinjung/dnd/
+repo: "https://github.com/jongbinjung/dnd/"
 output_dir: "docs"
 delete_merged_file: true
 language:
