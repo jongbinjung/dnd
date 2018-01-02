@@ -1,0 +1,6 @@
+Package: DnD
+Type: Book
+Title: Decisions and Data
+Version: 0.0.1
+Imports: bookdown
+Remotes: rstudio/bookdown
