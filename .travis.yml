@@ -5,7 +5,7 @@ cache: packages
 r_packages:
   - bookdown
 
-before_script:
+script:
   - make gitbook
 
 deploy:
@@ -13,6 +13,7 @@ deploy:
   skip_cleanup: true                   # Don't remove files
   github_token: $GITHUB_TOKEN          # Set in travis-ci.org dashboard
   local_dir: docs                      # Deploy the docs folder
+  fqdn: dnd.jongbin.com
   on:
     branch: master
 
